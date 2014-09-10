@@ -60,7 +60,7 @@ h3 {
     width: 100%
 }
 
-.councillor-template, .ward-template {
+.speaker-template, .ward-template {
     //position: absolute;
     margin-top: 96px;
     width: 100%;
@@ -80,7 +80,7 @@ h3 {
     background: #FFFFFF;
 }
 
-.councillor-list ul, .ward-list ul {
+.speaker-list ul, .session-list ul {
     clear: both;
     list-style-type: none;
     background: #FFFFFF !important;
@@ -97,7 +97,7 @@ h3 {
     display:block;
 }
 
-.councillor-list li, .ward-list li {
+.speaker-list li, .session-list li {
     clear: both;
     padding-top: 10px;
     padding-bottom: 4px;
@@ -114,7 +114,7 @@ h3 {
     height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
  }
 
-.councillor-list li .list-icon, .ward-list li .list-icon {
+.speaker-list li .list-icon, .session-list li .list-icon {
     float: left;
     margin-right: 12px;
     height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
@@ -135,7 +135,7 @@ h3 {
     margin:0px;
 }
 
-.councillor-list li a, .ward-list li a { 
+.speaker-list li a, .session-list li a { 
     text-decoration:none;
     display: block;
     margin:0px;
@@ -151,7 +151,7 @@ h3 {
     font-weight: bold;
 }
 
-.councillor-list li .line1, .ward-list li .line1 {
+.speaker-list li .line1, .session-list li .line1 {
     font-size: 18px;
     margin-top:0px;
     margin-bottom:0px;
@@ -170,7 +170,7 @@ h3 {
     color: #666666;
 }
 
-.councillor-list li .line2, .ward-list li .line2 {
+.speaker-list li .line2, .session-list li .line2 {
 	font-size: 18px;
     margin-top:4px;
     margin-bottom:0px;
@@ -179,7 +179,7 @@ h3 {
     color: #666666;
 }
 
-.councillor-list li .line2web, .ward-list li .line2web {
+.speaker-list li .line2web, .session-list li .line2web {
     font-size: 16px;
     margin-top:4px;
     margin-bottom:0px;
@@ -197,7 +197,7 @@ h3 {
     color: #666666;
 }
 
-.councillor-list li .line3, .ward-list li .line3 {
+.speaker-list li .line3, .session-list li .line3 {
     font-size: 18px;
     margin-top:4px;
     margin-bottom:0px;
@@ -216,7 +216,7 @@ h3 {
     font-weight: bold;
 }
 
-.councillor-list li .line_all, .ward-list li .line_all {
+.speaker-list li .line_all, .session-list li .line_all {
     font-size: 22px;
     margin-top:12px;
     margin-bottom:12px;
@@ -232,7 +232,7 @@ h3 {
     margin-top: -60px;
 }
 
-.councillor-list li .action-icon, .ward-list li .action-icon {
+.speaker-list li .action-icon, .session-list li .action-icon {
     position: absolute;
     right: 12px;
     margin-top: -60px;
@@ -314,17 +314,17 @@ h3 {
 	overflow: auto;
 } 
 
-.councillorDetails {
+.speakerDetails {
 	padding-left: 12px;
 /* 	margin-bottom: 12px;
  */}
 
-.councillorDetails img {
+.speakerDetails img {
 	float: left;
 	margin-right: 12px;
 }
 
-.councillorPic img {
+.speakerPic img {
     float: left;
 }
 

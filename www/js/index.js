@@ -137,7 +137,7 @@ var conference = {
     showSession: function(evt) {
         console.log("current: " + conference.currentPanel);
         var panel = document.getElementById("fake-session");
-        panel.setAttribute("class", "councillor-template");
+        panel.setAttribute("class", "speaker-template");
         panel.setAttribute("style", "display: block");
         var main = document.getElementById(conference.currentPanel);
         main.setAttribute("style", "display: none");
@@ -158,7 +158,7 @@ var conference = {
     }, 
     showSpeakerById: function(id) {
         var panel = document.getElementById("panel"+id);
-        panel.setAttribute("class", "councillor-template");
+        panel.setAttribute("class", "speaker-template");
         panel.setAttribute("style", "display: block");
         var main = document.getElementById(conference.currentPanel);
         main.setAttribute("style", "display: none");
