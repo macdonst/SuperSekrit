@@ -1,0 +1,92 @@
+[
+    {
+        "company": "Adobe",
+        "id": "0",
+        "title": "Software Engineer",
+        "First name": "Anis",
+        "Last name": "Kadri",
+        "Photo URL": "img/anis.png",
+        "Twitter": "https://twitter.com/aniskadri",
+        "Bio": "Anis is a Software Engineer at Adobe. He works on PhoneGap and Cordova full-time and has been contributing to the project since its early inception. Lately, he’s been interested in trying to introduce PhoneGap solutions to the enterprise world."
+    },
+    {
+        "company": "Adobe", 
+        "id": "1",
+        "title": "Development Lead, PhoneGap Build",
+        "First name": "Brett",
+        "Last name": "Rudd",
+        "Photo URL": "img/brettrudd.jpg",
+        "Twitter": "https://twitter.com/brettrudd",
+        "Bio": "Brett is the current development team lead for Adobe’s PhoneGap Build. PhoneGap Build allows you to create mobile apps using HTML, CSS, and JavaScript - and then easily compile them for multiple platforms in the cloud. First built at Nitobi 4 years ago, and now a part of Adobe’s Creative Cloud, it has built over a million apps and assists developers during prototyping, development and all the way through signing and packaging for App Store submittal. Brett has been on the team since it’s inception and will discuss this growth, a few new features that users have been waiting for, and also a few points on how it may evolve in the future. Brett has no hobbies."
+    },
+    {
+        "company": "Adobe",
+        "id": "2",
+        "title": "Software Developer",
+        "First name": "Anthony",
+        "Last name": "Rumsey",
+        "Photo URL": "img/anthony.jpeg",
+        "Twitter": "https://twitter.com/planetrumsey",
+        "Bio": "Anthony is a software developer at Adobe with a passion for creating well designed and engaging user experiences. During his 15 year career Anthony has focused on the the integration of web technologies into Adobe’s enterprise software. More recently his focus has shifted to exploring the capabilities of the mobile web and mobile apps including contributions to the responsive simulator, touch interface and PhoneGap integration in Adobe Experience Manager."
+    },
+    {
+        "company": "Adobe",
+        "id": "3",
+        "title": "Software Engineer",
+        "First name": "Herm",
+        "Last name": "Wong",
+        "Photo URL": "img/herm.jpg",
+        "Twitter": "https://twitter.com/hermwong",
+        "Bio": "Herm has previously contributed to Apache Cordova and is currently focused on trying to improve PhoneGap’s adoption by finding ways to simplify & streamline PhoneGap app development."
+    },
+    {
+        "company": "Adobe",
+        "id": "4",
+        "title": "Software Engineer",
+        "First name": "Holly",
+        "Last name": "Schinsky",
+        "Photo URL": "img/holly.jpeg",
+        "Twitter": "https://twitter.com/devgirlFL",
+        "Bio": "Holly Schinsky is working with the PhoneGap team at Adobe and currently focused on mobile development using PhoneGap, HTML/CSS and JavaScript. She has 17 years experience in software development including Java, Adobe Flex/AIR and ActionScript in addition to her recent hybrid mobile work. Holly’s latest focus is on developer advocacy and education via her blog, samples and workshops. In her free time she’s usually found driving a carpool, running or hanging out with her family."
+    },
+    {
+        "company": "Adobe",
+        "id": "5",
+        "title": "Software Engineer",
+        "First name": "Joe",
+        "Last name": "Bowser",
+        "Photo URL": "img/bowserj.jpeg",
+        "Twitter": "https://twitter.com/infil00p",
+        "Bio": "Joe is the creator of Android version of PhoneGap, and longest active contributor to PhoneGap and Apache Cordova. He still works on Android, finding solutions to various problems that appear on that platform, and also works on other hardware projects."
+    },
+    {
+        "company": "Adobe",
+        "id": "6",
+        "title": "Senior Software Barista",
+        "First name": "Michael",
+        "Last name": "Brooks",
+        "Photo URL": "img/mwbrooks.jpeg",
+        "Twitter": "https://twitter.com/mwbrooks",
+        "Bio": "Orphaned as a child, Michael Brooks was raised by his elderly Uncle Ben and Aunt May. Academically gifted, he displayed an uncanny affinity for Computer Science with speciality in signal processing and computer vision. While attending a developer meetup at the age of 26, Michael was bitten on the hand by a radioactive Nitobi employee, empowering him with the company’s proportional open source belief, community, and ability to ship products. Now disguised as mwbrooks and teamed with Adobe, Michael slings between vim, GitHub, Twitter, and IRC to protect the innocent, confront evil, and make PhoneGap & Apache Cordova a safer framework for the future of application development."
+    },
+    {
+        "company": "Adobe",
+        "id": "7",
+        "title": "Expert Keyboard Masher",
+        "First name": "Tim",
+        "Last name": "Kim",
+        "Photo URL": "img/timkim.jpeg",
+        "Twitter": "https://twitter.com/timkim",
+        "Bio": "Tim Kim is a developer from Adobe who spends most of his day working on the PhoneGap Developer App and watching cat videos on youtube. Aside from programming, Tim enjoys drawing, playing video games and filling out bios like this one."
+    },
+    {
+        "company": "Mozilla",
+        "id": "8",
+        "title": "Technical Evangelist",
+        "First name": "Jason",
+        "Last name": "Weathersby",
+        "Photo URL": "img/jasonweathersby.jpeg",
+        "Twitter": "https://twitter.com/JasonWeathersby",
+        "Bio": "Jason Weathersby is a Technical Evangelist for Mozilla, evangelizing Firefox OS. He is also a committer on the BIRT project at the Eclipse Foundation, and has co-authored several books and written many articles on BIRT integration. He is a proponent of HTML5, the Open Web and Open Source and is a regular contributor to the Mozilla Hacks blog. Jason has over 20 years experience in the software development field, ranging from real time process control to business intelligence software."
+    }
+]

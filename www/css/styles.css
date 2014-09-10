@@ -1,0 +1,384 @@
+*
+{
+font-family:sans-serif;	
+font-size: 20px;
+color: #444444;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body, 
+html,
+ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+
+	width: : 100%;
+    background: #FFFFFF;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.tabBar {
+    top: 47px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background: #000000;
+}
+
+.tabBar table {
+    width: 100%;
+    height: 48px;
+    border-collapse: collapse;
+}
+
+.tabBar td, th {
+    padding: 0px;
+}
+
+.tabBar td {
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+
+#speakers, #sessions {
+    //position: absolute;
+    //top: 0px;
+    margin-top: 96px;
+    width: 100%
+}
+
+.councillor-template, .ward-template {
+    //position: absolute;
+    margin-top: 96px;
+    width: 100%;
+    background: #DCDCDC;
+}
+
+#find {
+    margin-top: 96px;
+    margin-left: 5px;
+    margin-right: 5px;
+    //width: 100%;
+}
+
+#speakers ul, #sessions ul {
+    clear: both;
+    list-style-type: none;
+    background: #FFFFFF;
+}
+
+.councillor-list ul, .ward-list ul {
+    clear: both;
+    list-style-type: none;
+    background: #FFFFFF !important;
+}
+
+#speakers li, #sessions li {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 0px;
+    margin-left: 0px;
+    border-bottom:solid 1px #CCCCCC;
+    display:block;
+}
+
+.councillor-list li, .ward-list li {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 0px;
+    margin-left: 0px;
+    border-bottom:solid 1px #CCCCCC;
+    display:block;
+}
+
+#speakers li .list-icon, #sessions li .list-icon {
+    float: left;
+    margin-right: 12px;
+    height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
+ }
+
+.councillor-list li .list-icon, .ward-list li .list-icon {
+    float: left;
+    margin-right: 12px;
+    height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
+ }
+
+
+.icon-list li {
+	height: 108px;
+}
+
+.icon-list .line1 {
+	padding-top: 20px;
+}
+
+#speakers li a, #sessions li a { 
+    text-decoration:none;
+    display: block;
+    margin:0px;
+}
+
+.councillor-list li a, .ward-list li a { 
+    text-decoration:none;
+    display: block;
+    margin:0px;
+}
+
+#speakers li .line1, #sessions li .line1  {
+    font-size: 18px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:8px;
+    padding-bottom:0px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+.councillor-list li .line1, .ward-list li .line1 {
+    font-size: 18px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:8px;
+    padding-bottom:0px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+#speakers li .line2, #sessions li .line2 {
+	font-size: 18px;
+    margin-top:8px;
+    margin-bottom:0px;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    color: #666666;
+}
+
+.councillor-list li .line2, .ward-list li .line2 {
+	font-size: 18px;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left: 12px;
+    padding-bottom: 4px;
+    color: #666666;
+}
+
+.councillor-list li .line2web, .ward-list li .line2web {
+    font-size: 16px;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    color: #666666;
+}
+
+#speakers li .line3 {
+	font-size: 18px;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left: 24px;
+    padding-bottom: 18px;
+    color: #666666;
+}
+
+.councillor-list li .line3, .ward-list li .line3 {
+    font-size: 18px;
+    margin-top:4px;
+    margin-bottom:0px;
+    padding-left: 24px;
+    padding-bottom: 18px;
+    color: #666666;
+}
+
+#speakers li .line_all {
+    font-size: 22px;
+    margin-top:12px;
+    margin-bottom:12px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+.councillor-list li .line_all, .ward-list li .line_all {
+    font-size: 22px;
+    margin-top:12px;
+    margin-bottom:12px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+#speakers li .action-icon, #sessions li .action-icon {
+    position: absolute;
+    right: 12px;
+    margin-top: -60px;
+}
+
+.councillor-list li .action-icon, .ward-list li .action-icon {
+    position: absolute;
+    right: 12px;
+    margin-top: -60px;
+}
+
+.actionIcon {
+    position: absolute;
+    right: 12px;
+    margin-top: -60px;
+    height: 48px;
+    width: 48px;
+}
+
+.header {
+	position:  absolute;
+ 	text-align: center;
+ 	background: #666666; /* for non-css3 browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#666666), color-stop(.6,#333));
+	color: #FFFFFF;
+	top: 0px; 
+	height: 60px;
+	width: 100%;
+	border-bottom: solid 1px #444444;
+}
+
+.header > h1 {
+	font-size: 24px;
+	font-weight: bold;
+/* 	padding-top:18px;
+ */	color: #FFFFFF;
+}
+
+.header > .nav {
+	position: absolute;
+	left: 12px;
+	height:100%;
+	padding-top: 18px;
+	padding-right: 12px;
+	border-right: solid 1px #333333;
+}
+
+.header > .action {
+	position: absolute;
+	right: 10px;
+}
+
+.header a { 
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+.header2 {
+	//position: absolute;
+	padding-top: 18px;
+	padding-left: 8px;
+	background: #ECEFF2; /* for non-css3 browsers */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#ECEFF2));
+	color: #000000;
+	font-weight: bold;
+	top: 61px; 
+	height: 40px;
+	left: 0px;
+	right: 0px;
+	border-bottom: solid 1px #C8CBCE;
+	z-index:1;
+}
+
+.header2 > h2 {
+	font-size: 20px;
+	padding:0px;
+	margin:0px;
+}
+
+.wrapper {
+	//position: absolute; 
+	//top: 120px; 
+	//bottom: 0px;
+	width: 100%;
+	overflow: auto;
+} 
+
+.councillorDetails {
+	padding-left: 12px;
+/* 	margin-bottom: 12px;
+ */}
+
+.councillorDetails img {
+	float: left;
+	margin-right: 12px;
+}
+
+.councillorPic img {
+    float: left;
+}
+
+.holoBtn {
+    text-align: center;
+    padding: 10px;
+    border:1px solid #555555;
+    color:#3E3E3E ;
+    text-shadow:0  0  0  #ffffff ;
+    background:#f3f3f3 ;
+    width: 100%;
+    //position:absolute; 
+    //bottom:0;
+}
+
+.addressLine {
+    font-size: 22px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:12px;
+    padding-bottom:0px;
+    padding-left: 12px;
+    font-weight: bold;   
+    border-bottom: 3px solid black; 
+}
+
+.postalCodeInput {
+    border-top: 4px solid white; 
+    border-left: 4px solid white; 
+    border-right: 4px solid white; 
+    border-bottom: 4px solid #DCDCDC; 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    color: #666666;
+    width: 90%;
+}
+
+#currentLocation {
+    text-align: center;
+    font-size: 22px;
+}
+
+.upIcon {
+    height: 14px;
+    width: 14px;
+}
+
+.appIcon {
+    height: 48px;
+    width: 48px;
+}
+
+.actionBarIcon {
+    height: 32px;
+    width: 32px;
+}

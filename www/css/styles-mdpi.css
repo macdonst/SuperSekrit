@@ -1,0 +1,430 @@
+*
+{
+font-family:sans-serif;	
+font-size: 40px;
+color: #444444;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body, 
+html,
+ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+
+	width: : 100%;
+    background: #FFFFFF;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 36px;
+}
+.tabBar {
+    top: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    background: #000000;
+}
+
+.tabBar table {
+    width: 100%;
+    height: 72px;
+    border-collapse: collapse;
+}
+
+.tabBar th, td {
+    padding: 0px;
+}
+
+.tabBar td {
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+
+#speakers, #sessions {
+    //position: absolute;
+    //top: 0px;
+    margin-top: 144px;
+    width: 100%
+}
+
+.councillor-template, .ward-template {
+    //position: absolute;
+    margin-top: 144px;
+    width: 100%;
+    background: #DCDCDC;
+}
+
+.councillorTitle,.councillorDetails {
+	font-size: 26px;
+}
+.councillorTitle, .councillorDetails {
+	font-size: 26px;
+}
+.ward {
+	font-size: 26px;
+	font-style: bold;
+}
+
+#find {
+    margin-top: 144px;
+    //margin-left: 10px;
+    //margin-right: 10px;
+    width: 100%;
+}
+
+#speakers ul, #sessions ul {
+    clear: both;
+    list-style-type: none;
+    background: #FFFFFF;
+}
+
+.councillor-list ul,  .ward-list ul {
+    clear: both;
+    list-style-type: none;
+    background: #FFFFFF !important;
+}
+
+#speakers li, #sessions li {
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 0px;
+    margin-left: 0px;
+    border-bottom:solid 1px #CCCCCC;
+    display:block;
+}
+
+.councillor-list li, .ward-list li {
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 0px;
+    margin-left: 0px;
+    border-bottom:solid 1px #CCCCCC;
+    display:block;
+}
+
+#speakers li .list-icon, #sessions li .list-icon {
+    float: left;
+    margin-right: 18px;
+    margin-top: 10px;
+    height: 145px; /* TODO: use 100x100 pics instead of scaling */ 
+   
+ }
+
+.councillor-list li .list-icon, .ward-list li .list-icon{
+    float: left;
+    margin-right: 18px;
+    margin-top: 10px;
+    height: 145px; /* TODO: use 100x100 pics instead of scaling */ 
+    
+ }
+
+
+.icon-list li {
+	height: 162px;
+}
+
+.icon-list .line1 {
+	padding-top: 30px;
+}
+
+#speakers li a, #sessions li a { 
+    text-decoration:none;
+    display: block;
+    margin:0px;
+}
+
+.councillor-list li a, .ward-list li a{ 
+    text-decoration:none;
+    display: block;
+    margin:0px;
+}
+
+#speakers li .line1, #sessions li .line1  {
+    font-size: 32px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:7px;
+    padding-bottom:0px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.councillor-list li .line1, .ward-list li .line1 {
+    font-size: 32px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:7px;
+    padding-bottom:0px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+#speakers li .line2, #sessions li .line2 {
+    font-size: 30px;
+    margin-top:6px;
+    margin-bottom:0px;
+    padding-left: 18px;
+    padding-bottom: 7px;
+    color: #666666;
+}
+
+.councillor-list li .line2,  .ward-list li .line2 {
+	font-size: 30px;
+    margin-top:6px;
+    margin-bottom:0px;
+    padding-left: 18px;
+    padding-bottom: 7px;
+    color: #666666;
+}
+
+.councillor-list li .line2web, .ward-list li .line2web {
+    font-size: 20px;
+    margin-top:6px;
+    margin-bottom:0px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    color: #666666;
+}
+
+#speakers li .line3 {
+    font-size: 30px;
+    margin-top:6px;
+    margin-bottom:0px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    color: #666666;
+}
+
+.councillor-list li .line3, .ward-list li .line3 {
+   font-size: 24px;
+    margin-top:6px;
+    margin-bottom:0px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    color: #666666;
+}
+
+#speakers li .line_ward, #sessions li .line_ward  {
+    font-size: 32px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.councillor-list li .line_ward, .ward-list li .line_ward {
+    font-size: 32px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:12px;
+    padding-bottom:6px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+
+#speakers li .line_all, #sessions li .line_all {
+    font-size: 36px;
+    margin-top:18px;
+    margin-bottom:18px;
+    padding-top:18px;
+    padding-bottom:18px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.councillor-list li .line_all, .ward-list li .line_all {
+    font-size: 36px;
+    margin-top:18px;
+    margin-bottom:18px;
+    padding-top:18px;
+    padding-bottom:18px;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+#speakers li .action-icon, #sessions li .action-icon {
+    position: absolute;
+    right: 18px;
+    margin-top: -90px;
+    height: 72px;
+    width: 2px;
+}
+
+.councillor-list li .action-icon, .ward-list li .action-icon {
+    position: absolute;
+    right: 18px;
+    margin-top: -90px;
+}
+
+.actionIcon {
+    position: absolute;
+    right: 18px;
+    margin-top: -90px;
+    height: 56px;
+    width: 56px;
+}
+
+.header {
+	position:  absolute;
+ 	text-align: center;
+ 	background: #666666; /* for non-css3 browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#666666), color-stop(.6,#333));
+	color: #FFFFFF;
+	top: 0px; 
+	height: 90px;
+	width: 100%;
+	border-bottom: solid 1px #444444;
+}
+
+.header > h1 {
+	font-size: 36px;
+	font-weight: bold;
+/* 	padding-top:18px;
+ */	color: #FFFFFF;
+}
+
+.header > .nav {
+	position: absolute;
+	left: 18px;
+	height:100%;
+	padding-top: 24px;
+	padding-right: 18px;
+	border-right: solid 1px #333333;
+}
+
+.header > .action {
+	position: absolute;
+	right: 15px;
+}
+
+.header a { 
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+.header2 {
+	//position: absolute;
+	padding-top: 24px;
+	padding-left: 12px;
+	background: #ECEFF2; /* for non-css3 browsers */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#ECEFF2));
+	color: #000000;
+	font-weight: bold;
+	top: 90px; 
+	height: 60px;
+	left: 0px;
+	right: 0px;
+	border-bottom: solid 1px #C8CBCE;
+	z-index:1;
+}
+
+.header2 > h2 {
+	font-size: 30px;
+	padding:0px;
+	margin:0px;
+}
+
+.wrapper {
+	//position: absolute; 
+	//top: 120px; 
+	//bottom: 0px;
+	width: 100%;
+	overflow: auto;
+} 
+
+.councillorDetails {
+	padding-left: 18px;
+/* 	margin-bottom: 12px;
+ */}
+
+.councillorDetails img {
+	float: left;
+	margin-right: 18px;
+}
+
+.councillorPic img {
+    float: left;
+}
+
+.holoBtn {
+    text-align: center;
+    padding: 15px;
+    border:1px solid #555555;
+    color:#3E3E3E ;
+    text-shadow:0  0  0  #ffffff ;
+    background:#f3f3f3 ;
+    width: 100%;
+    //position:absolute; 
+    //bottom:0;
+}
+
+.addressLine {
+    font-size: 36px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:18px;
+    padding-bottom:0px;
+    padding-left: 18px;
+    font-weight: bold;   
+    border-bottom: 3px solid black; 
+}
+
+.postalCodeInput {
+    border-top: 6px solid white; 
+    border-left: 6px solid white; 
+    border-right: 6px solid white; 
+    border-bottom: 6px solid #DCDCDC; 
+    padding: 18px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 15px 0;
+    color: #666666;
+    width: 90%;
+}
+
+#currentLocation {
+    text-align: center;
+    font-size: 36px;
+}
+
+.upIcon {
+    height: 20px;
+    width: 29px;
+}
+
+.appIcon {
+    height: 72px;
+    width: 72px;
+}
+
+.actionBarIcon {
+    height: 48px;
+    width: 48px;
+}
+
+.listIcon {
+    height: 72px;
+    width: 72px;
+}

@@ -1,0 +1,70 @@
+[
+	{
+		"date": "2014/09/25",
+		"tracks": [
+			{ 
+				"id": "0",
+				"title": "PhoneGap, from Beginner to God Mode Track",
+				"sessions": [ 
+					{
+						"id": "0",
+						"title": "Beginner: Intro to PhoneGap",
+						"desc": "This workshop will provide an introduction to PhoneGap, the philosophy behind it and how to get started quickly using a variety of different tools available. The CLI, PhoneGap Developer App, PhoneGap Build and more will be shown and you will learn about the many frameworks available to choose from when building your mobile apps. You will also be shown debugging techniques and walk away with a solid understanding of what PhoneGap is all about. Lastly you can expect to hear an introduction to the PhoneGap Enterprise offering Adobe has been working on."
+					},
+					{
+						"id": "1",
+						"title": "Advanced: Architecting PhoneGap apps",
+						"desc": "Learn how to architect large, complex, and native-like PhoneGap apps using HTML, JavaScript, and CSS. We will investigate mobile challenges and find solutions for them as well as learn all about Single Page Architecture, HTML templates, effective touch events, performance techniques, MVC Frameworks and more. In this session you will also learn more about PhoneGap Enterprise and see how page editing and content update works."
+					},
+					{
+						"id": "2",
+						"title": "God Mode: Building an app from scratch and more...",
+						"desc": "In this session we'll build a full-blown mobile application from scratch for a real world scenario using PhoneGap and a popular UI framework stack. You will learn how to implement various plugins and all about the plugin architecture in general so you can go build your own custom plugins in the future. We'll use the tools introduced in the first session and knowledge gleaned throughout the day to help solidify the concepts. You'll also delve more into the PhoneGap Enterprise offering and see a demo using a specific app that will show off some of the new features available."
+					}
+				]
+			},
+			{ 
+				"id": "1",
+				"title": "PhoneGap Ecosystem Track",
+				"sessions": [ 
+					{
+						"id": "0",
+						"title": "PhoneGap: Firefox OS App Workshop",
+						"desc": "Firefox OS is an open source operating system for mobile built using HTML5, Javascript and open web standards. Firefox OS integration with Apache Cordova / Adobe PhoneGap began early this year, and development is ongoing. As Firefox OS continues to expand to new markets around the world, there's a great opportunity for multi-platform app developers like you. If you are interested in porting an application built with Cordova to Firefox OS, this workshop will get you up and running."
+					},
+					{
+						"id": "1",
+						"title": "PhoneGap: Windows Phone App Workshop",
+						"desc": "Firefox OS is an open source operating system for mobile built using HTML5, Javascript and open web standards. Firefox OS integration with Apache Cordova / Adobe PhoneGap began early this year, and development is ongoing. As Firefox OS continues to expand to new markets around the world, there's a great opportunity for multi-platform app developers like you. If you are interested in porting an application built with Cordova to Firefox OS, this workshop will get you up and running."
+					}
+				]
+			}
+		]
+	},
+	{
+		"date": "2014/09/26",
+		"tracks": [
+			{ 
+				"id": "0",
+				"title": "PhoneGap, from Beginner to God Mode",
+				"sessions": [ 
+					{
+						"id": "0",
+						"title": "Beginner: Intro to PhoneGap",
+						"desc": "This workshop will provide an introduction to PhoneGap, the philosophy behind it and how to get started quickly using a variety of different tools available. The CLI, PhoneGap Developer App, PhoneGap Build and more will be shown and you will learn about the many frameworks available to choose from when building your mobile apps. You will also be shown debugging techniques and walk away with a solid understanding of what PhoneGap is all about. Lastly you can expect to hear an introduction to the PhoneGap Enterprise offering Adobe has been working on."
+					},
+					{
+						"id": "1",
+						"title": "Advanced: Architecting PhoneGap apps",
+						"desc": "Learn how to architect large, complex, and native-like PhoneGap apps using HTML, JavaScript, and CSS. We will investigate mobile challenges and find solutions for them as well as learn all about Single Page Architecture, HTML templates, effective touch events, performance techniques, MVC Frameworks and more. In this session you will also learn more about PhoneGap Enterprise and see how page editing and content update works."
+					},
+					{
+						"id": "2",
+						"title": "God Mode: Building an app from scratch and more...",
+						"desc": "In this session we'll build a full-blown mobile application from scratch for a real world scenario using PhoneGap and a popular UI framework stack. You will learn how to implement various plugins and all about the plugin architecture in general so you can go build your own custom plugins in the future. We'll use the tools introduced in the first session and knowledge gleaned throughout the day to help solidify the concepts. You'll also delve more into the PhoneGap Enterprise offering and see a demo using a specific app that will show off some of the new features available."
+					}
+				]
+			}
+		]
+	}
+]

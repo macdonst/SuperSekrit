@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" media='screen and (max-width: 479px)' type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" media='screen and (min-width: 480px) and (max-width: 699px)' type="text/css" href="css/styles-mdpi.css" />
+        <link rel='stylesheet' media='screen and (min-width: 700px)' href='css/styles-hdpi.css' />
+        <link rel="stylesheet" media='screen and (max-width: 479px)' type="text/css" href="css/actionbar.css" />
+        <link rel="stylesheet" media='screen and (min-width: 480px) and (max-width: 699px)' type="text/css" href="css/actionbar-mdpi.css" />
+        <link rel='stylesheet' media='screen and (min-width: 700px)' href='css/actionbar-hdpi.css' />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <header id="action-bar">
+            <ul id="left">
+                <li><a><img src="img/app-logo.png" class="appIcon" alt="Home"></a></li>
+                <li><a>PhoneGap Day</a></li>
+            </ul>
+        
+            <ul id="right">
+                <li id="add" style="display: none"><a id="addPerson" href="#"><img src="icons/hdpi/addPerson.png" class="actionBarIcon" alt="Add"></a></li>
+            </ul>
+        </header>        
+        
+        <div id="tabbar" class="tabBar">            
+            <table>
+                <tr>
+                    <td id="cBtn" style="border-bottom: 8px solid #2489ce">Speakers</td>
+                    <td id="wBtn">Sessions</td>
+                </tr>
+            </table>            
+        </div>
+        
+        <div id="speakers">
+        </div>
+        
+        <div id="sessions" style="display:none">
+            <p class="line1">2014/09/25</p>
+            <ul>
+                <li>
+                    <p class="line1">
+                        9:00am
+                    </p>
+                    <p class="line2">
+                        Registration/Breakfast
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        10:00am
+                    </p>
+                    <p class="line2">
+                        Beginner: Intro to PhoneGap
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        11:35am
+                    </p>
+                    <p class="line2">
+                        Advanced: Architecting PhoneGap apps
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        1:25pm
+                    </p>
+                    <p class="line2">
+                        Lunch
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        2:30pm
+                    </p>
+                    <p class="line2">
+                        God Mode: Building an app from scratch and more...
+                    </p>
+                </li>
+            </ul>
+            <p class="line1">2014/09/26</p>
+            <ul>
+                <li>
+                    <p class="line1">
+                        9:00am
+                    </p>
+                    <p class="line2">
+                        Registration/Breakfast
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        10:00am
+                    </p>
+                    <p class="line2">
+                        Plugman, the Man that Plugs
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        10:30am
+                    </p>
+                    <p class="line2">
+                        PhoneGap Build
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        11:00am
+                    </p>
+                    <p class="line2">
+                        Break
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        11:15am
+                    </p>
+                    <p class="line2">
+                        Integrating PhoneGap with Adobe Experience Manager
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        11:45am
+                    </p>
+                    <p class="line2">
+                        PhoneGap Enterprise
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        12:15am
+                    </p>
+                    <p class="line2">
+                        Lunch
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        1:30pm
+                    </p>
+                    <p class="line2">
+                        Using Ionic with PhoneGap
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        2:00pm
+                    </p>
+                    <p class="line2">
+                        Expanding PhoneGap Android to Alternative WebViews
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        2:30pm
+                    </p>
+                    <p class="line2">
+                        Break
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        2:45pm
+                    </p>
+                    <p class="line2">
+                        PhoneGap Command Line Wizardry
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        3:15pm
+                    </p>
+                    <p class="line2">
+                        PhoneGap Developer App
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        3:45pm
+                    </p>
+                    <p class="line2">
+                        PhoneGap and Mozilla a Marriage Story
+                    </p>
+                </li>
+                <li>
+                    <p class="line1">
+                        4:15pm
+                    </p>
+                    <p class="line2">
+                        Closing Remarks
+                    </p>
+                </li>
+            </ul>
+        </div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/lib/fastclick.js"></script>
+        <script type="text/javascript" src="js/lib/hammer.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            console.log("calling app init");
+            app.initialize();
+        </script>
+        
+        <div id="speaker-template" class="councillor-template" style="display: none">
+            <div id="wrapper">
+                <div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="{{Photo URL}}" class="councillorPic" align="left">
+                                </td>
+                                <td class="councillorDetails">
+                                    <h3 class="fullName">{{First name}} {{Last name}}</h3>
+                                    <div id="councillorTitle">                                                                      
+                                    <p id="councillorTitle" class="councillorTitle">{{title}}</p>
+                                    </div>
+                                    <p class="ward">{{company}}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <ul class="councillor-list" style="background: #FFFFFF">
+                    <li>
+                        <p class="line2">{{Bio}}</p>
+                    </li>
+                    <li>
+                        <a href="javascript:window.open('{{Twitter}}','_blank', 'location=yes')">
+                            <p class="line1">{{twitter}}</p>
+                            <p class="line2">{{Twitter}}</p>
+                            <img src="icons/hdpi/twitter.png" class="actionIcon"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="fake-session" class="councillor-template" style="display: none">
+            <div id="wrapper">
+                <div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="img/doctorwho.jpeg" class="councillorPic" align="left">
+                                </td>
+                                <td class="councillorDetails">
+                                    <h3 class="fullName">Timey Wimey</h3>
+                                    <div id="councillorTitle">                                  
+                                    <p id="councillorTitle" class="councillorTitle">Doctor Who</p>
+                                    </div>
+                                    <p class="ward">@bbcdoctorwho</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <ul class="councillor-list" style="background: #FFFFFF">
+                    <li>
+                        <p class="line2">
+                            Would you like a jelly baby? Shut up, K-9! You may be a doctor. But I'm the Doctor. The definite article, you might say. Well, of course I'm being childish! There's no point being grown-up if you can't be childish sometimes. Come on! You're standing on my scarf. You're a clumsy, ham fisted idiot! It seems you have a very large rat Brigadier—maybe you should employ the services of a very large cat? Are you listening to me? It may be irrational of me, but human beings are my favorite species.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
