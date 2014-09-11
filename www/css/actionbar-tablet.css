@@ -1,0 +1,96 @@
+#action-bar {
+        background-color: #ddd;
+        height: 72px;
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 50;
+
+        padding: 0;
+        margin: -2px 0 0 0;
+
+        outline: 0;
+
+        border-bottom: 1px solid #9B9B9B;
+        border-bottom-color: rgba(155, 155, 155, 0.49);
+
+        -webkit-box-shadow: 0 0 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0,0,0,.2);
+           -moz-box-shadow: 0 0 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0,0,0,.2);
+            -ms-box-shadow: 0 0 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0,0,0,.2);
+             -o-box-shadow: 0 0 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0,0,0,.2);
+                box-shadow: 0 0 0 rgba(111, 151, 182, 0.5) inset, 0 -1px 0 rgba(111, 151, 182, 0.2) inset, 0 1px 1px rgba(0,0,0,.2);
+   }
+
+    #action-bar img {
+        vertical-align: middle;
+    }
+
+    #action-bar #left,
+    #action-bar #right {
+        padding: 0;
+        margin: 0;
+    }
+
+    #action-bar #left { float: left; }
+    #action-bar #right { float: right; }
+
+    #action-bar #left ul,
+    #action-bar #right ul {
+    }
+
+    #action-bar #left li,
+    #action-bar #right li {
+        float: left;
+        margin: 0;
+        list-style: none;
+    }
+
+    #action-bar #right li a {
+        width: 64px;
+        text-align: center;
+    }
+
+    #action-bar #left li a,
+    #action-bar #right li a {
+        font-size: 32px;
+        text-decoration: none;
+        color: #333;
+        height: 72px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #action-bar-menu {
+        padding: 0;
+        display: none;
+        right: 10px;
+        top: 96px;
+        float: left;
+        background-color: #efefef;
+        position: fixed;
+    }
+
+    #action-bar-menu ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #action-bar-menu li {
+        border-top: 1px solid #d6d7d6;
+        list-style: none;
+    }
+
+    #action-bar-menu li:hover {
+        background-color: #ddd;
+    }
+
+    #action-bar-menu li a,
+    #action-bar-menu li a:visited {
+        width: 210px;
+        display: block;
+        padding: 18px;
+        margin: 0;
+        color: #333;
+        text-decoration: none;
+    }
