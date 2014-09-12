@@ -54,24 +54,14 @@ h3 {
 }
 
 #speakers, #sessions {
-    //position: absolute;
-    //top: 0px;
     margin-top: 192px;
     width: 100%
 }
 
-.speaker-template, .ward-template {
-    //position: absolute;
+.speaker-template {
     margin-top: 192px;
     width: 100%;
     background: #DCDCDC;
-}
-
-#find {
-    margin-top: 192px;
-    //margin-left: 10px;
-    //margin-right: 10px;
-    width: 100%;
 }
 
 #speakers ul, #sessions ul {
@@ -121,15 +111,6 @@ h3 {
     margin-top: 10px;
     height: 180px; /* TODO: use 100x100 pics instead of scaling */ 
  }
-
-
-.icon-list li {
-	height: 216px;
-}
-
-.icon-list .line1 {
-	padding-top: 40px;
-}
 
 #speakers li a, #sessions li a { 
     text-decoration:none;
@@ -286,8 +267,7 @@ h3 {
 .header > h1 {
 	font-size: 48px;
 	font-weight: bold;
-/* 	padding-top:18px;
- */	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .header > .nav {
@@ -310,7 +290,6 @@ h3 {
 }
 
 .header2 {
-	//position: absolute;
 	padding-top: 36px;
 	padding-left: 16px;
 	background: #ECEFF2; /* for non-css3 browsers */
@@ -332,17 +311,13 @@ h3 {
 }
 
 .wrapper {
-	//position: absolute; 
-	//top: 120px; 
-	//bottom: 0px;
 	width: 100%;
 	overflow: auto;
 } 
 
 .speakerDetails {
 	padding-left: 24px;
-/* 	margin-bottom: 12px;
- */}
+}
 
 .speakerDetails img {
 	float: left;
@@ -353,51 +328,6 @@ h3 {
     float: left;
 }
 
-.holoBtn {
-    text-align: center;
-    padding: 20px;
-    border:1px solid #555555;
-    color:#3E3E3E ;
-    text-shadow:0  0  0  #ffffff ;
-    background:#f3f3f3 ;
-    width: 100%;
-    //position:absolute; 
-    //bottom:0;
-}
-
-.addressLine {
-    font-size: 44px;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding-top:24px;
-    padding-bottom:0px;
-    padding-left: 24px;
-    font-weight: bold;   
-    border-bottom: 3px solid black; 
-}
-
-.postalCodeInput {
-    border-top: 8px solid white; 
-    border-left: 8px solid white; 
-    border-right: 8px solid white; 
-    border-bottom: 8px solid #DCDCDC; 
-    padding: 30px;
-    background: rgba(255,255,255,0.5);
-    margin: 0 0 20px 0;
-    color: #666666;
-    width: 90%;
-}
-
-#currentLocation {
-    text-align: center;
-    font-size: 44px;
-}
-
-.upIcon {
-    height: 28px;
-    width: 28px;
-}
-
 .appIcon {
     height: 96px;
     width: 96px;
@@ -406,9 +336,4 @@ h3 {
 .actionBarIcon {
     height: 64px;
     width: 64px;
-}
-
-.listIcon {
-    height: 96px;
-    width: 96px;
 }

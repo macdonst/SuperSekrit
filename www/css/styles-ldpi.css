@@ -1,7 +1,7 @@
 *
 {
 font-family:sans-serif;	
-font-size: 40px;
+font-size: 20px;
 color: #444444;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -21,14 +21,11 @@ body {
 }
 
 h3 {
-	font-size: 36px;
+	font-size: 24px;
 }
 
-h2 {
-	font-size: 36px;
-}
 .tabBar {
-    top: 70px;
+    top: 47px;
     position: fixed;
     width: 100%;
     z-index: 50;
@@ -37,11 +34,11 @@ h2 {
 
 .tabBar table {
     width: 100%;
-    height: 72px;
+    height: 48px;
     border-collapse: collapse;
 }
 
-.tabBar th, td {
+.tabBar td, th {
     padding: 0px;
 }
 
@@ -49,7 +46,7 @@ h2 {
     width: 33%;
     text-align: center;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 12px;
     color: #FFFFFF;
     text-transform: uppercase;
     border-top: 8px solid black;
@@ -57,25 +54,14 @@ h2 {
 }
 
 #speakers, #sessions {
-    margin-top: 144px;
+    margin-top: 96px;
     width: 100%
 }
 
 .speaker-template {
-    margin-top: 144px;
+    margin-top: 96px;
     width: 100%;
     background: #DCDCDC;
-}
-
-.speakerTitle,.speakerDetails {
-	font-size: 26px;
-}
-.speakerTitle, .speakerDetails {
-	font-size: 26px;
-}
-.ward {
-	font-size: 26px;
-	font-style: bold;
 }
 
 #speakers ul, #sessions ul {
@@ -84,7 +70,7 @@ h2 {
     background: #FFFFFF;
 }
 
-.speaker-list ul,  .session-list ul {
+.speaker-list ul, .session-list ul {
     clear: both;
     list-style-type: none;
     background: #FFFFFF !important;
@@ -92,9 +78,9 @@ h2 {
 
 #speakers li, #sessions li {
     clear: both;
-    padding-top: 15px;
-    padding-bottom: 6px;
-    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
     padding-right: 0px;
     margin-left: 0px;
     border-bottom:solid 1px #CCCCCC;
@@ -103,9 +89,9 @@ h2 {
 
 .speaker-list li, .session-list li {
     clear: both;
-    padding-top: 15px;
-    padding-bottom: 6px;
-    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
     padding-right: 0px;
     margin-left: 0px;
     border-bottom:solid 1px #CCCCCC;
@@ -114,18 +100,14 @@ h2 {
 
 #speakers li .list-icon, #sessions li .list-icon {
     float: left;
-    margin-right: 18px;
-    margin-top: 10px;
-    height: 145px; /* TODO: use 100x100 pics instead of scaling */ 
-   
+    margin-right: 12px;
+    height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
  }
 
-.speaker-list li .list-icon, .session-list li .list-icon{
+.speaker-list li .list-icon, .session-list li .list-icon {
     float: left;
-    margin-right: 18px;
-    margin-top: 10px;
-    height: 145px; /* TODO: use 100x100 pics instead of scaling */ 
-    
+    margin-right: 12px;
+    height: 100px; /* TODO: use 100x100 pics instead of scaling */ 
  }
 
 #speakers li a, #sessions li a { 
@@ -134,139 +116,116 @@ h2 {
     margin:0px;
 }
 
-.speaker-list li a, .session-list li a{ 
+.speaker-list li a, .session-list li a { 
     text-decoration:none;
     display: block;
     margin:0px;
 }
 
 #speakers li .line1, #sessions li .line1  {
-    font-size: 32px;
+    font-size: 18px;
     margin-top:0px;
     margin-bottom:0px;
-    padding-top:7px;
+    padding-top:8px;
     padding-bottom:0px;
-    padding-left: 18px;
+    padding-left: 12px;
     font-weight: bold;
 }
 
 .speaker-list li .line1, .session-list li .line1 {
-    font-size: 32px;
+    font-size: 18px;
     margin-top:0px;
     margin-bottom:0px;
-    padding-top:7px;
+    padding-top:8px;
     padding-bottom:0px;
-    padding-left: 18px;
+    padding-left: 12px;
     font-weight: bold;
 }
 
 #speakers li .line2, #sessions li .line2 {
-    font-size: 30px;
-    margin-top:6px;
+	font-size: 18px;
+    margin-top:8px;
     margin-bottom:0px;
-    padding-left: 18px;
-    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-bottom: 4px;
     color: #666666;
 }
 
-.speaker-list li .line2,  .session-list li .line2 {
-	font-size: 30px;
-    margin-top:6px;
+.speaker-list li .line2, .session-list li .line2 {
+	font-size: 18px;
+    margin-top:4px;
     margin-bottom:0px;
-    padding-right: 18px;
-    padding-left: 18px;
-    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 4px;
     color: #666666;
 }
 
 .speaker-list li .line2web, .session-list li .line2web {
-    font-size: 20px;
-    margin-top:6px;
+    font-size: 16px;
+    margin-top:4px;
     margin-bottom:0px;
-    padding-left: 18px;
-    padding-bottom: 18px;
+    padding-left: 12px;
+    padding-bottom: 12px;
     color: #666666;
 }
 
 #speakers li .line3 {
-    font-size: 30px;
-    margin-top:6px;
+	font-size: 18px;
+    margin-top:4px;
     margin-bottom:0px;
-    padding-left: 18px;
-    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-bottom: 18px;
     color: #666666;
 }
 
 .speaker-list li .line3, .session-list li .line3 {
-   font-size: 24px;
-    margin-top:6px;
+    font-size: 18px;
+    margin-top:4px;
     margin-bottom:0px;
-    padding-left: 18px;
-    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-bottom: 18px;
     color: #666666;
 }
 
-#speakers li .line_ward, #sessions li .line_ward  {
-    font-size: 32px;
-    margin-top:0px;
-    margin-bottom:0px;
+#speakers li .line_all {
+    font-size: 22px;
+    margin-top:12px;
+    margin-bottom:12px;
     padding-top:12px;
     padding-bottom:12px;
-    padding-left: 18px;
-    font-weight: bold;
-}
-
-.speaker-list li .line_ward, .session-list li .line_ward {
-    font-size: 32px;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding-top:12px;
-    padding-bottom:6px;
-    padding-left: 18px;
-    font-weight: bold;
-}
-
-
-#speakers li .line_all, #sessions li .line_all {
-    font-size: 36px;
-    margin-top:18px;
-    margin-bottom:18px;
-    padding-top:18px;
-    padding-bottom:18px;
-    padding-left: 18px;
+    padding-left: 12px;
     font-weight: bold;
 }
 
 .speaker-list li .line_all, .session-list li .line_all {
-    font-size: 36px;
-    margin-top:18px;
-    margin-bottom:18px;
-    padding-top:18px;
-    padding-bottom:18px;
-    padding-left: 18px;
+    font-size: 22px;
+    margin-top:12px;
+    margin-bottom:12px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left: 12px;
     font-weight: bold;
 }
 
 #speakers li .action-icon, #sessions li .action-icon {
     position: absolute;
-    right: 18px;
-    margin-top: -90px;
-    height: 72px;
-    width: 2px;
+    right: 12px;
+    margin-top: -60px;
 }
 
 .speaker-list li .action-icon, .session-list li .action-icon {
     position: absolute;
-    right: 18px;
-    margin-top: -90px;
+    right: 12px;
+    margin-top: -60px;
 }
 
 .actionIcon {
     position: absolute;
-    right: 18px;
-    margin-top: -90px;
-    height: 56px;
-    width: 56px;
+    right: 12px;
+    margin-top: -60px;
+    height: 48px;
+    width: 48px;
 }
 
 .header {
@@ -276,29 +235,29 @@ h2 {
 	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#666666), color-stop(.6,#333));
 	color: #FFFFFF;
 	top: 0px; 
-	height: 90px;
+	height: 60px;
 	width: 100%;
 	border-bottom: solid 1px #444444;
 }
 
 .header > h1 {
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: bold;
     color: #FFFFFF;
 }
 
 .header > .nav {
 	position: absolute;
-	left: 18px;
+	left: 12px;
 	height:100%;
-	padding-top: 24px;
-	padding-right: 18px;
+	padding-top: 18px;
+	padding-right: 12px;
 	border-right: solid 1px #333333;
 }
 
 .header > .action {
 	position: absolute;
-	right: 15px;
+	right: 10px;
 }
 
 .header a { 
@@ -308,14 +267,14 @@ h2 {
 
 .header2 {
 	//position: absolute;
-	padding-top: 24px;
-	padding-left: 12px;
+	padding-top: 18px;
+	padding-left: 8px;
 	background: #ECEFF2; /* for non-css3 browsers */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#ECEFF2));
 	color: #000000;
 	font-weight: bold;
-	top: 90px; 
-	height: 60px;
+	top: 61px; 
+	height: 40px;
 	left: 0px;
 	right: 0px;
 	border-bottom: solid 1px #C8CBCE;
@@ -323,7 +282,7 @@ h2 {
 }
 
 .header2 > h2 {
-	font-size: 30px;
+	font-size: 20px;
 	padding:0px;
 	margin:0px;
 }
@@ -334,12 +293,12 @@ h2 {
 } 
 
 .speakerDetails {
-	padding-left: 18px;
+	padding-left: 12px;
 }
 
 .speakerDetails img {
 	float: left;
-	margin-right: 18px;
+	margin-right: 12px;
 }
 
 .speakerPic img {
@@ -347,11 +306,11 @@ h2 {
 }
 
 .appIcon {
-    height: 72px;
-    width: 72px;
+    height: 48px;
+    width: 48px;
 }
 
 .actionBarIcon {
-    height: 48px;
-    width: 48px;
+    height: 32px;
+    width: 32px;
 }
